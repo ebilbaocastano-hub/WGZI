@@ -3,19 +3,19 @@
 $ikasleak = array(
 
     "Eder" => array(
-        "abizenak" => "Bilbao",
-        "adina" => "19",
-        "zikloa" => "DAW"
+        "Abizenak" => "Bilbao",
+        "Adina" => "19",
+        "Zikloa" => "DAW"
     ),
     "Aratz" => array(
-        "abizenak" => "Elexpe",
-        "adina" => "18",
-        "zikloa" => "DAM"
+        "Abizenak" => "Elexpe",
+        "Adina" => "18",
+        "Zikloa" => "DAM"
     ),
     "Markel" => array(
-        "abizenak" => "Abascal",
-        "adina" => "22",
-        "zikloa" => "ASIR"
+        "Abizenak" => "Abascal",
+        "Adina" => "22",
+        "Zikloa" => "ASIR"
     )
 );
 
@@ -29,8 +29,16 @@ $ikasleak = array(
     <title>Ariketa 19</title>
 </head>
 <body>
+    <h1>IKASLEAK: </h1>
+    <br>
     <?php 
-    
+    foreach($ikasleak as $ikaslea => $ikasleen_datuak){
+        echo"Izena: $ikaslea <br>";
+            foreach($ikasleen_datuak as $datu_mota => $datua){
+               echo "<ul><li>$datu_mota: $datua</li></ul>";
+               
+            }   
+        }
     ?>
 </body>
 </html>
