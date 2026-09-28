@@ -43,15 +43,14 @@
                 $makinaPuntuak++;
             }
 
-            echo "<p><em>Emaitza: Jokalaria $jokalariPuntuak - Makina $makinaPuntuak</em></p><hr>";
             $txanda++;
         }
 
         // Jokoa amaitzean irabazle nagusia erakutsi
         if ($jokalariPuntuak == 3) {
-            echo "<h2>🎉 ZORIONAK! Jokalariak irabazi du jokoa! 🎉</h2>";
+            echo "<h2> ZORIONAK! Jokalariak irabazi du jokoa! </h2>";
         } else {
-            echo "<h2>💻 MAKINAK IRABAZI DU JOKOA! 💻</h2>";
+            echo "<h2> MAKINAK IRABAZI DU JOKOA! </h2>";
         }
     }
 

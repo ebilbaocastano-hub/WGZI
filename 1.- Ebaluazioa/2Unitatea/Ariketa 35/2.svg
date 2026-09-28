@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Cohete espacial</title>
+  <desc id="desc">Un cohete rojo y blanco viajando entre estrellas.</desc>
+  <rect width="500" height="500" fill="#101b3d"/>
+  <g fill="#fff3c4">
+    <circle cx="70" cy="90" r="4"/><circle cx="420" cy="75" r="5"/><circle cx="380" cy="220" r="3"/><circle cx="100" cy="350" r="5"/><circle cx="440" cy="410" r="3"/>
+  </g>
+  <path d="M195 380c-28 34-35 62-35 82 22-16 43-24 67-25Z" fill="#ffb347"/>
+  <path d="M305 380c28 34 35 62 35 82-22-16-43-24-67-25Z" fill="#ff7043"/>
+  <path d="M250 70c-72 48-83 151-53 276l53 42 53-42c30-125 19-228-53-276Z" fill="#f3f5f7" stroke="#d9e0e8" stroke-width="5"/>
+  <path d="M250 70c-18 15-32 34-42 56h84c-10-22-24-41-42-56Z" fill="#ef5350"/>
+  <circle cx="250" cy="190" r="34" fill="#55b9d8" stroke="#273b62" stroke-width="9"/>
+  <path d="M197 285h106l-18 63-35 40-35-40Z" fill="#ef5350"/>
+  <path d="M197 285l-49 38c-4 28 7 45 27 57l36-34Z" fill="#ef5350"/>
+  <path d="m303 285 49 38c4 28-7 45-27 57l-36-34Z" fill="#ef5350"/>
+</svg>

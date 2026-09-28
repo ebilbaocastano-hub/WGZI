@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Paisaje de montana al atardecer</title>
+  <desc id="desc">Un sol sobre montanas, un lago y dos arboles en primer plano.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18324a"/>
+      <stop offset="58%" stop-color="#d56b5f"/>
+      <stop offset="100%" stop-color="#f2bd78"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#477d91"/>
+      <stop offset="100%" stop-color="#132c45"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#31485b"/>
+      <stop offset="100%" stop-color="#162a40"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="585" cy="155" r="64" fill="#ffd98a" opacity="0.95"/>
+  <circle cx="585" cy="155" r="88" fill="#ffd98a" opacity="0.14"/>
+
+  <path d="M0 315 150 165 245 270 365 112 520 284 638 184 800 330V500H0Z" fill="url(#mountain)"/>
+  <path d="m365 112-42 61 37-14 21 30 25-23 33 41 81 77-155-59-100 61-76-31-71 42L0 355V500h800V332L638 184 520 284Z" fill="#233a50" opacity="0.72"/>
+  <path d="M0 365q130-26 260 0t280 0 260 0v135H0Z" fill="url(#water)"/>
+  <path d="M0 390q130-22 260 0t280 0 260 0M80 430q110-14 220 0t220 0 200 0" fill="none" stroke="#7db0b7" stroke-width="4" opacity="0.45"/>
+
+  <g fill="#102638">
+    <path d="M105 500V292l-43 58h28l-46 62h34l-47 68h45v20Z"/>
+    <path d="M105 360h7v140h-7z" fill="#0b1e2e"/>
+    <path d="M705 500V270l-50 72h34l-48 64h37l-50 70h48v24Z"/>
+    <path d="M705 350h8v150h-8z" fill="#0b1e2e"/>
+  </g>
+</svg>

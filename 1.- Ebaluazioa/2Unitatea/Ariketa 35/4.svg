@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Taza de cafe</title>
+  <desc id="desc">Una taza de cafe humeante sobre una mesa de madera.</desc>
+  <rect width="600" height="400" fill="#f4e5d2"/>
+  <path d="M0 315h600v85H0Z" fill="#9b6246"/>
+  <path d="M218 114c-15-36 28-42 10-78M300 114c-15-36 28-42 10-78M382 114c-15-36 28-42 10-78" fill="none" stroke="#b48672" stroke-width="9" stroke-linecap="round"/>
+  <path d="M148 125h286v126c0 49-40 86-86 86H234c-46 0-86-37-86-86Z" fill="#f7f2e9" stroke="#604436" stroke-width="8"/>
+  <path d="M178 138h226v43H178Z" fill="#5b3327"/>
+  <path d="M434 157h42c67 0 67 102 0 102h-45" fill="none" stroke="#604436" stroke-width="19"/>
+  <path d="M178 181h226v15H178Z" fill="#3d211b" opacity=".65"/>
+  <ellipse cx="291" cy="329" rx="177" ry="24" fill="#6d4435" opacity=".45"/>
+  <path d="M220 251h142" stroke="#d8c2a7" stroke-width="8" stroke-linecap="round"/>
+</svg>
