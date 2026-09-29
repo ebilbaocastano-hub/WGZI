@@ -17,7 +17,7 @@
                 <a href="index.php">Hasiera</a>
                 <a href="bilatu.php">Bilatu</a>
                 <a href="#">Seriea gehitu</a>
-                <a href="#">Estatistikak</a>
+                <a href="estatistikak.php">Estatistikak</a>
             </nav>
         </div>
     </header>
