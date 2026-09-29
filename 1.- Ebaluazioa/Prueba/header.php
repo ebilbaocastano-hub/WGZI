@@ -18,8 +18,11 @@
                 <a href="bilatu.php">Bilatu</a>
                 <a href="#">Seriea gehitu</a>
                 <a href="estatistikak.php">Estatistikak</a>
+                <a href="login.php">Login</a>
+                <a href="logout.php">Logout</a>
             </nav>
         </div>
     </header>
 
     <main>
+        
